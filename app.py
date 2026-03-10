@@ -18,6 +18,13 @@ st.set_page_config(
     layout="centered"
 )
 
+st.markdown("""
+<style>
+.stApp {
+    color: #1f4e79;
+}
+</style>
+""", unsafe_allow_html=True)
 
 st.markdown("""
 <style>
